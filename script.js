@@ -10,6 +10,7 @@ async function testRun(){
     await driver.findElement(By.xpath("//input[@placeholder='Search']")).sendKeys(Nike);
     await driver.findElement(By.xpath("//input[@placeholder='Search']")).sendKeys(key.ENTER);
     await driver.findElement(By.xpath(`//a[contains(@herf,'182')]/span[contains(text(,'${productName}')]`)).click();
+    await driver.findElement(By.xpath("//input[@name = 'qty']")).clear();
     await driver.sleep(5000)
     await driver.quit();
 }
