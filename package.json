@@ -1,0 +1,16 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node script.js"
+  },
+  "keywords": [],
+  "author": "hasib",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chromedriver": "^129.0.2",
+    "selenium-webdriver": "^4.25.0"
+  }
+}
